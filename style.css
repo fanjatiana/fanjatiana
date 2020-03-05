@@ -241,7 +241,6 @@ body{
 		width: 100%;
 		flex-direction: column;
 	}
-
 	#presentation
 	{
 		width: 100%;
@@ -271,9 +270,9 @@ body{
 	{
 		text-align: center;
 	}
-	
+}	
 
-}
+
 @media screen and (max-width: 720px)
 {
 	
@@ -292,29 +291,23 @@ body{
 	#presentation
 	{
 		order:2;
-
 	}
-
 	#experiencepro
 	{
 		order:1;
 	}
-
 	#presentation .contact
 	{
 		order:3;
-
 	}
 	#presentation .apropos
 	{
 		order:1;
-
 	}
 	#presentation .loisirs
 	{
 		order:2;
 	}
-
 	#presentation
 	{
 		width: auto;
@@ -323,7 +316,6 @@ body{
 	{
 		display: none;
 	}
-
 	#experiencepro header
 	{
 		background: no-repeat url(image/fanjatiana1.jpg);
@@ -338,29 +330,21 @@ body{
 	#experiencepro header h2
 	{
 		color:black;
-
 	}
 	#experiencepro header h1
 	{
 		color:black;
-		font-size: 3em;
-		
+		font-size: 3em;	
 	}
-
 	#experiencepro header h1 span
 	{
 		color:black;
-
 	}
-
 	#experiencepro i
 	{
-	
 		font-size: 1.1em;
-		color:#212121;
-		
+		color:#212121;	
 	}
-
 	#experiencepro h3
 	{
 		border-top: medium black solid; 
@@ -370,9 +354,7 @@ body{
 		background-color: #006064;
 		margin-top: 50px;
 		color:#212121;
-
 	}
-	
 	.articleformations
 	{
 		flex-direction: column;
@@ -386,8 +368,6 @@ body{
 	{
 		padding:0;
 	}
-	
-
 	.articlexperience
 	{
 		flex-direction: column;
@@ -401,21 +381,18 @@ body{
 	{
 		padding: 0;	
 	}
-	
-
 	.articlerecommandations
 	{
-		
 		flex-direction: column;
 		text-align: center;
 		margin:0;
 	}
 	.articlerecommandations div
 	{
-	
 		width: auto;
 		padding:0;
 	}
+}
 
 	@media screen and (max-width: 350px)
 	{
@@ -430,17 +407,13 @@ body{
 		#experiencepro header h1
 		{
 			font-size: 3em;
-			margin-top: 60px;
+			margin-top:10px;
 			color:black;
 		}
-		#experiencepro header h1 span
+		#experiencepro header h1 span,h2
 		{
 			color:black;
 		}
-		#experiencepro header h2
-		{
-			color:#006064;
-		}
+		
 	}
 	
-}

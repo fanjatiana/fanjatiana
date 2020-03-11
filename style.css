@@ -1,6 +1,7 @@
 
 
-body{
+body
+{
 	width: 900px;
 	height: auto;
 	margin: 0 auto;
@@ -109,11 +110,13 @@ body{
 	font-size: 2em;
 	margin-right: 10px;
 }
+
 .articleformations .Openclassrooms li:before
 {
 	content:"▹";
 	color: #006064;
 }
+
 #experiencepro
 {
 	display: flex;
@@ -403,26 +406,26 @@ body{
 	}
 }
 
-	@media screen and (max-width: 350px)
+@media screen and (max-width: 350px)
+{
+	#experiencepro header
 	{
-		#experiencepro header
-		{
-			width:auto;
-			background-image: url(image/fanjatiana2.jpg);
-			background-attachment: initial;
-			background-size: cover;
-			border-radius: 0;
-		}
-		#experiencepro header h1
-		{
-			font-size: 3em;
-			margin-top:10px;
-			color:black;
-		}
-		#experiencepro header h1 span,h2
-		{
-			color:black;
-		}
-		
+		width:auto;
+		background-image: url(image/fanjatiana2.jpg);
+		background-attachment: initial;
+		background-size: cover;
+		border-radius: 0;
 	}
+	#experiencepro header h1
+	{
+		font-size: 3em;
+		margin-top:10px;
+		color:black;
+	}
+	#experiencepro header h1 span,h2
+	{
+		color:black;
+	}
+		
+}
 	

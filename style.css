@@ -299,54 +299,31 @@ body
 
 @media screen and (max-width: 500px)
 {
+	
 	#presentation
 	{
-		order:2;
+		width:100%;
+	}
+	#presentation figure p img
+	{
+		width: 70%;
 	}
 	#experiencepro
 	{
-		order:1;
+		width:100%;	
 	}
-	#presentation .contact
-	{
-		order:3;
-	}
-	#presentation .apropos
-	{
-		order:1;
-	}
-	#presentation .loisirs
-	{
-		order:2;
-	}
-	#presentation
-	{
-		width: auto;
-	}
-	#presentation figure .photo 
-	{
-		display: none;
-	}
-	#experiencepro header
-	{
-		background: no-repeat url(image/fanjatiana1.jpg);
-		background-attachment: initial;
-		background-size: cover;
-		border-radius:50%;
-		margin:auto;
-		width: 100%;
-		height: 450px;
-		padding:0;
-	}
+	
 	#experiencepro header h2
 	{
 		color:black;
+		margin-right: 40px;
 	}
 	#experiencepro header h1
 	{
 		color:black;
 		font-size: 3em;	
 		margin-top:60px;
+		margin-right: 40px;
 	}
 	#experiencepro header h1 span
 	{
@@ -406,15 +383,20 @@ body
 	}
 }
 
-@media screen and (max-width: 350px)
+@media screen and (max-width: 380px)
 {
+	#presentation
+	{
+		width: 100%;
+	}
+	#experiencepro
+	{
+		width:100%;	
+	}
 	#experiencepro header
 	{
 		width:auto;
-		background-image: url(image/fanjatiana2.jpg);
-		background-attachment: initial;
-		background-size: cover;
-		border-radius: 0;
+		
 	}
 	#experiencepro header h1
 	{

@@ -31,7 +31,7 @@ la documentation technique de l'application.
 - [Argent Bank] Utilisation d' une api pour un compte bancaire avec
 React. Mise en place un gestionnaire d'état avec Redux.
 
-- [HRnet] refonte d'une librairie jquery vers react avec analyse de la performance.
+- [HRnet] refonte d'une librairie jquery vers react avec analyse de la performance et création d'un package npm.
 
 Les autres projets appartiennent à une précédente formation. 
 
